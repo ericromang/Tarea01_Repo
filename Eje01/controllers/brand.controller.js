@@ -91,7 +91,7 @@ const deleteByIdBrand = (req,res) =>{
     })
     .catch((err)=>{
         res.status(400);
-        res.json({msg:"Error! no se encontro la marca",err: err});
+        res.json({msg:"Error! no se encontro la marca"});
     })
 }
 module.exports = (Brand) => {
